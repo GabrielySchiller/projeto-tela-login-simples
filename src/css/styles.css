@@ -1,0 +1,106 @@
+body{
+    background-image:  url(/img/_caa3d028-c394-4c4a-b677-89081b8f7f0e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+    
+}
+
+.container{
+    display: flex;
+    background-color: rgba(50, 30, 42, 0.692);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 70px;
+    border-radius: 15px;
+
+}
+
+.caixa{
+    max-width: 500px;
+    max-height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+    
+.titulo{
+     margin-top: -70px; 
+     font-size: 35px;
+     margin-bottom: 25px;
+     text-align: center;
+}  
+
+#nome {
+   background-color: rgb(226, 43, 131);
+   border-radius: 10px;
+   margin-bottom: 10px;
+   width: 250px;
+   padding: 2px;
+
+}
+
+.gmail{
+    background-color: rgb(226, 43, 131);
+   border-radius: 10px;
+   margin-bottom: 10px;
+   width: 250px;
+   padding: 2px;
+
+}
+
+#senha{
+    background-color: rgb(226, 43, 131);
+   border-radius: 10px;
+   margin-bottom: 10px;
+   width: 250px;
+   padding: 2px;
+
+}
+
+.termo{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.entradas{
+    font-size: 20px;
+    text-align: center;
+}
+
+.btns{
+    width: 40px;
+   display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+
+}
+
+button{
+    padding:  5px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: rgb(186, 43, 226);
+    border: none;
+    color: #fff;
+   
+    
+}
+
+button:hover{
+   border: 2px solid rgb(255, 255, 255);
+   transition: 3s;
+
+}
